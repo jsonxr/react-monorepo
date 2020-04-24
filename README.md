@@ -22,15 +22,13 @@ yarn start
 
 ## Acknowledgement
 
-This repository made possible by the efforts of the amazing community ❤️ [Follow symlinks? #1](https://github.com/facebook/metro/issues/1)
+- I started off here looking for answers: [issue #1 for metro bundler... grrrr](https://github.com/facebook/metro/issues/1)
 
-[issue #1 for metro bundler... grrrr](https://github.com/facebook/metro/issues/1)
+- I forked from this repo: [working example](https://github.com/gorhom/react-monorepo)
 
-[working example](https://github.com/gorhom/react-monorepo)
+- This is a really good article when you need to troubleshoot: [Way more details in ios/android](https://engineering.brigad.co/react-native-monorepos-code-sharing-f6c08172b417)
 
-[A concise guide to configuring React Native with Yarn Workspaces](https://medium.com/@huntie/a-concise-guide-to-configuring-react-native-with-yarn-workspaces-d7efa71b6906)
-
-[Way more details in ios/android](https://engineering.brigad.co/react-native-monorepos-code-sharing-f6c08172b417)
+- [A concise guide to configuring React Native with Yarn Workspaces](https://medium.com/@huntie/a-concise-guide-to-configuring-react-native-with-yarn-workspaces-d7efa71b6906)
 
 ## Contributing
 
