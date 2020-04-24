@@ -1,0 +1,43 @@
+{
+  "name": "@demo/web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@demo/shared": "0.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^25.2.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "react-scripts": "^3.4.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "CI=true react-scripts test --colors",
+    "lint": "tsc --noEmit --skipLibCheck && eslint '*/**/*.{js,ts,tsx}' --fix",
+    "eject": "react-scripts eject",
+    "nuke": "rm -rf node_modules && rm -f yarn.lock"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
